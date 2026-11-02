@@ -9,3 +9,10 @@ Changes made to the website
 3.much more polished pictures and text colours
 4.Much more consistent website sub-pages than before
 5.logo has been centered to suit the website
+
+#Website Summative changes
+1.Added javascript to the website
+2.improvement on the website interface
+3.much more detailed communication forms 
+4.A reveal about Kasi Eatery's establishment
+5.
