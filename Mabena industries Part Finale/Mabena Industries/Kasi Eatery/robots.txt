@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the example URL below with the deployed website URL.
+Sitemap: https://YOUR-DEPLOYED-DOMAIN.example/sitemap.xml

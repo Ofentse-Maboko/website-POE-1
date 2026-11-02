@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products and Services | Ekasi Eatery</title>
+  <meta name="description" content="Explore sample meal options, drinks and catering services at Ekasi Eatery.">
+  <meta name="keywords" content="Ekasi Eatery, local food, affordable meals, catering">
+  <meta name="theme-color" content="#222222">
+  <link rel="stylesheet" href="../CSS/css.css">
+  <script src="../Js/site.js" defer></script>
+  <script src="../Js/menu.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="beginning.html" aria-label="Ekasi Eatery home">
+    <img src="../images/tag.jpg" alt="Ekasi Eatery logo" class="logo" onerror="this.style.display='none'">
+    <span>Ekasi Eatery</span>
+  </a>
+  <nav aria-label="Main navigation">
+  <a href="beginning.html">Home</a>
+  <a href="about%20us.html">About Us</a>
+  <a href="Product%20and%20services.html">Products and Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="news.html">News and Updates</a>
+  <a href="enquiry.html">Enquiries</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+</header>
+<main class="content-panel">
+  <h1>Products and Services</h1>
+  <p>Search our sample menu and filter by category. Replace these examples with your confirmed dishes and prices.</p>
+  <div class="menu-tools">
+    <div><label for="menuSearch">Search menu</label><input id="menuSearch" type="search" placeholder="Try meals, drinks or catering"></div>
+    <div><label for="menuCategory">Category</label><select id="menuCategory"><option value="all">All categories</option><option value="meals">Meals</option><option value="drinks">Drinks</option><option value="catering">Catering</option></select></div>
+  </div>
+  <p id="menuStatus" class="status-text" aria-live="polite"></p>
+  <div class="card-grid menu-grid">
+    <article class="card menu-card" data-category="meals"><img src="../images/pot.jpeg" alt="Freshly prepared meal" loading="lazy"><h2>Freshly Prepared Meals</h2><p>Tasty meal options prepared with care.</p><p class="price">Ask us for current prices</p></article>
+    <article class="card menu-card" data-category="meals"><img src="../images/paper.jpg" alt="Local food served at Ekasi Eatery" loading="lazy"><h2>Local Food Favourites</h2><p>Comforting food inspired by local tastes.</p><p class="price">Ask us for current prices</p></article>
+    <article class="card menu-card" data-category="drinks"><img src="../images/dr.jpg" alt="Cold refreshments" loading="lazy"><h2>Cold Drinks</h2><p>Refreshments to enjoy with your meal.</p><p class="price">Ask us for current prices</p></article>
+    <article class="card menu-card" data-category="catering"><img src="../images/goat.jpg" alt="Food prepared for a gathering" loading="lazy"><h2>Catering Services</h2><p>Ask about food for family events and community gatherings.</p><a href="enquiry.html">Enquire about catering</a></article>
+  </div>
+</main>
+<footer class="site-footer">
+  <p>&copy; <span data-current-year>2026</span> Ekasi Eatery. Fresh food, friendly service.</p>
+  <p><a href="enquiry.html">Ask about catering</a> · <a href="contact.html">Contact us</a></p>
+</footer>
+</body>
+</html>

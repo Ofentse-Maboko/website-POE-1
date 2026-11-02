@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enquiries | Ekasi Eatery</title>
+  <meta name="description" content="Ask Ekasi Eatery about menu options, catering services, group orders and events.">
+  <meta name="keywords" content="Ekasi Eatery, local food, affordable meals, catering">
+  <meta name="theme-color" content="#222222">
+  <link rel="stylesheet" href="../CSS/css.css">
+  <script src="../Js/site.js" defer></script>
+  <script src="../Js/forms.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="beginning.html" aria-label="Ekasi Eatery home">
+    <img src="../images/tag.jpg" alt="Ekasi Eatery logo" class="logo" onerror="this.style.display='none'">
+    <span>Ekasi Eatery</span>
+  </a>
+  <nav aria-label="Main navigation">
+  <a href="beginning.html">Home</a>
+  <a href="about%20us.html">About Us</a>
+  <a href="Product%20and%20services.html">Products and Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="news.html">News and Updates</a>
+  <a href="enquiry.html">Enquiries</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+</header>
+<main class="content-panel narrow-panel">
+  <h1>Service and Catering Enquiry</h1>
+  <p>Use this form to ask about menu options, catering, group orders or events.</p>
+  <form data-validate-form>
+    <div class="form-field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required></div>
+    <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+    <div class="form-field"><label for="phone">Phone number (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{7,20}" title="Use 7–20 characters: digits, spaces, +, brackets or hyphens."></div>
+    <div class="form-field"><label for="enquiryType">Enquiry type</label><select id="enquiryType" name="enquiryType" required><option value="">Choose an option</option><option>Menu or food options</option><option>Catering for an event</option><option>Group or large order</option><option>Other service enquiry</option></select></div>
+    <div class="form-field"><label for="eventDate">Event date (if applicable)</label><input id="eventDate" name="eventDate" type="date"></div>
+    <div class="form-field"><label for="message">Tell us what you need</label><textarea id="message" name="message" rows="5" minlength="10" maxlength="1000" required></textarea></div>
+    <button type="submit">Submit enquiry</button><p data-form-status aria-live="polite"></p>
+  </form>
+</main>
+<footer class="site-footer">
+  <p>&copy; <span data-current-year>2026</span> Ekasi Eatery. Fresh food, friendly service.</p>
+  <p><a href="enquiry.html">Ask about catering</a> · <a href="contact.html">Contact us</a></p>
+</footer>
+</body>
+</html>

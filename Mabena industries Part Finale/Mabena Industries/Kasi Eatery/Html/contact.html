@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Ekasi Eatery</title>
+  <meta name="description" content="Contact Ekasi Eatery with feedback, questions or customer service messages.">
+  <meta name="keywords" content="Ekasi Eatery, local food, affordable meals, catering">
+  <meta name="theme-color" content="#222222">
+  <link rel="stylesheet" href="../CSS/css.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+  <script src="../Js/map.js" defer></script>
+  <script src="../Js/site.js" defer></script>
+  <script src="../Js/forms.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="beginning.html" aria-label="Ekasi Eatery home">
+    <img src="../images/tag.jpg" alt="Ekasi Eatery logo" class="logo" onerror="this.style.display='none'">
+    <span>Ekasi Eatery</span>
+  </a>
+  <nav aria-label="Main navigation">
+  <a href="beginning.html">Home</a>
+  <a href="about%20us.html">About Us</a>
+  <a href="Product%20and%20services.html">Products and Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="news.html">News and Updates</a>
+  <a href="enquiry.html">Enquiries</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+</header>
+<main class="content-panel narrow-panel">
+  <h1>Contact Us</h1>
+  <p>Send general feedback, a question or a customer service message.</p>
+  <form data-validate-form>
+    <div class="form-field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required></div>
+    <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+    <div class="form-field"><label for="messageType">Message type</label><select id="messageType" name="messageType" required><option value="">Choose a message type</option><option>Feedback</option><option>Compliment</option><option>Customer service issue</option><option>General question</option></select></div>
+    <div class="form-field"><label for="message">Your message</label><textarea id="message" name="message" rows="6" minlength="10" maxlength="1500" required></textarea></div>
+    <button type="submit">Send message</button><p data-form-status aria-live="polite"></p>
+  </form>
+  <aside class="notice"><h2>Before you submit</h2><p>This demo checks your entries in the browser. It does not email or store the message until a form service or server is connected.</p></aside>
+  <section class="location-section" aria-labelledby="location-heading">
+    <h2 id="location-heading">Find Ekasi Eatery</h2>
+    <p>We are in Meadowlands, Soweto, Gauteng. The marker shows the general Meadowlands area; it is approximate because a street address has not been provided.</p>
+    <div id="eatery-map" class="interactive-map" role="application" aria-label="Interactive map showing the general Meadowlands area in Soweto"></div>
+    <p><a class="map-directions" href="https://www.google.com/maps/dir/?api=1&destination=Meadowlands%2C+Soweto%2C+Gauteng%2C+South+Africa" target="_blank" rel="noopener">Get directions to Meadowlands</a></p>
+  </section>
+</main>
+<footer class="site-footer">
+  <p>&copy; <span data-current-year>2026</span> Ekasi Eatery. Fresh food, friendly service.</p>
+  <p><a href="enquiry.html">Ask about catering</a> · <a href="contact.html">Contact us</a></p>
+</footer>
+</body>
+</html>
